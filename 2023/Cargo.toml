@@ -1,0 +1,113 @@
+[package]
+name = "code-advent-2023"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.10.2"
+num = "0.4"
+pathfinding = "4.8.0"
+z3 = {version="0.12", features = ["static-link-z3"]}
+rustworkx-core = "0.13.2"
+
+[[bin]]
+name = "1"
+path = "src/01/main.rs"
+
+[[bin]]
+name = "2"
+path = "src/02/main.rs"
+
+[[bin]]
+name = "3"
+path = "src/03/main.rs"
+
+[[bin]]
+name = "4"
+path = "src/04/main.rs"
+
+[[bin]]
+name = "5"
+path = "src/05/main.rs"
+
+[[bin]]
+name = "6"
+path = "src/06/main.rs"
+
+[[bin]]
+name = "7"
+path = "src/07/main.rs"
+
+[[bin]]
+name = "8"
+path = "src/08/main.rs"
+
+[[bin]]
+name = "9"
+path = "src/09/main.rs"
+
+[[bin]]
+name = "10"
+path = "src/10/main.rs"
+
+[[bin]]
+name = "11"
+path = "src/11/main.rs"
+
+[[bin]]
+name = "12"
+path = "src/12/main.rs"
+
+[[bin]]
+name = "13"
+path = "src/13/main.rs"
+
+[[bin]]
+name = "14"
+path = "src/14/main.rs"
+
+[[bin]]
+name = "15"
+path = "src/15/main.rs"
+
+[[bin]]
+name = "16"
+path = "src/16/main.rs"
+
+[[bin]]
+name = "17"
+path = "src/17/main.rs"
+
+[[bin]]
+name = "18"
+path = "src/18/main.rs"
+
+[[bin]]
+name = "19"
+path = "src/19/main.rs"
+
+[[bin]]
+name = "20"
+path = "src/20/main.rs"
+
+[[bin]]
+name = "21"
+path = "src/21/main.rs"
+
+[[bin]]
+name = "22"
+path = "src/22/main.rs"
+
+[[bin]]
+name = "23"
+path = "src/23/main.rs"
+
+[[bin]]
+name = "24"
+path = "src/24/main.rs"
+
+[[bin]]
+name = "25"
+path = "src/25/main.rs"
